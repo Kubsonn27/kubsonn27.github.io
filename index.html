@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Portfolio</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="default.css"/>
+		<link rel="icon" href="favicon.png" type="image/png">
+        <script>
+            window.onload = function() {
+              var height = getViewportHeight();
+              if(height > 0)
+              //ID sekcji do których zostanie przypisana wysokość viewportu.
+                document.getElementById("OmnieContainer").style.height = height + "px";
+            }
+            function getViewportHeight() {
+              var h = 0;
+              if(self.innerHeight)
+                h = window.innerHeight;
+              else if(document.documentElement && document.documentElement.clientHeight)
+                h = document.documentElement.clientHeight;
+              else if(document.body) 
+                h = document.body.clientHeight;
+            return h;
+            }
+            </script>
+    </head>
+    <body>
+        <div id="WebsiteContainer" style="width:100%;height:100%;text-align:center;">
+            <div id="WebsiteContent" style="width:70%;margin:auto;height:100%;">
+                <div id="MenuBarContainer" style="display:inline-block;height:fit-content;margin:auto;width:100%;">
+                    <table style="margin:auto;">
+                        <tr>
+                            <td>
+                                <h2 style="margin:15px;"><a href="#OmnieContent">O Mnie</a></h2>
+                            </td>
+                            <td>
+                                <h2 style="margin:15px;"><a href="#PortfolioContent">Projekty</a></h2>
+                            </td>
+							<td>
+							<h2 style="margin:15px;"><a href="#KontaktContent">Kontakt</a></h2>
+							</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="OmnieContainer" style="width:100%;height:900px;text-align:center;">
+                    <div id="OmnieContent" style="width:100%;height:fit-content;">
+                        <h1>O Mnie</h1>
+                        <h2>Mam na imię Kuba i mam 16 lat. Głównie interesuje się programowaniem, muzyką, piłką nożną oraz grami komputerowymi. W wolnym czasie lubię spędzać czas ze znajomymi. Uczęszczam do Zespołu Szkół Elektrycznych w Kielcach, gdzie staram się powiększać swój zakres wiedzy dotyczący programowania. </h2>
+                    </div>
+					</div>
+                <hr>
+                <div id="PortfolioContainer" style="height:fit-content;width:100%;display:inline-block;">
+                    <div id="PortfolioContent">
+                        <h1>Moje Projekty</h1>
+                        <ul style="list-style-type:none;padding:0px;">
+                            <!--Skopiować to żeby dodać kolejne projekty-->
+							<h2> ↓ Przykładowe rozwiązania egzaminów ↓ </h2>
+                            <li>
+                                <h2>E.14-02-19.01</h2>
+                                 <a href="projekt.html"><img src="Projekt 1.png" alt="Zdjecie Projektu" style="width:500px;height:300px;"/></a>
+                            </li>
+							<li>
+							<h2>E.14-06-18.06</h2>
+							<a href="projekt.html"><img src="Projekt 2.png" alt="Zdjecie Projektu" style="width:500px;height:300px;"/></a>
+							</li>
+							<li>
+							<h2>Projekt</h2>
+							<a href="projekt.html"><img src="Projekt 3.png" alt="Zdjecie Projektu" style="width:500px;height:300px;"/></a>
+							</li>
+							<li>
+							<h2>EE.09-02-19.06</h2>
+							<a href="projekt.html"><img src="Projekt 4.png" alt="Zdjecie Projektu" style="width:500px;height:300px;"/></a>
+							</li>
+							<li>
+							<h2>EE.09-04.19.06</h2>
+							<a href="projekt.html"><img src="Projekt 5.png" alt="Zdjecie Projektu" style="width:500px;height:300px;"/></a>
+							</li>
+							<li>
+							<h2>EE.09-05-19.06</h2>
+							<a href="projekt.html"><img src="Projekt 6.png" alt="Zdjecie Projektu" style="width:500px;height:300px;"/></a>
+							</li>
+							<li>
+							<h2>E.09-03-19.06</h2>
+							<a href="projekt.html"><img src="Projekt 7.png" alt="Zdjecie Projektu" style="width:500px;height:300px;"/></a>
+							</li>
+							<li>
+							<h2>E.09-06-19.06</h2>
+							<a href="projekt.html"><img src="Projekt 8.png" alt="Zdjecie Projektu" style="width:500px;height:300px;"/></a>
+							</li>
+							<li>
+							<h2>E.14-01-14.08</h2>
+							<a href="projekt.html"><img src="Projekt 9.png" alt="Zdjecie Projektu" style="width:500px;height:300px;"/></a>
+							</li>
+							<li>
+							<h2>EE.09-02-19.06</h2>
+							<a href="projekt.html"><img src="Projekt 10.png" alt="Zdjecie Projektu" style="width:500px;height:300px;"/></a>
+							</li>
+							<li>
+							<h2>E.14-01-20.06-SG</h2>
+							<a href="projekt.html"><img src="Projekt 11.png" alt="Zdjecie Projektu" style="width:500px;height:300px;"/></a>
+							</li>
+							<li>
+							<h2>E.14-01-15.01</h2>
+							<a href="projekt.html"><img src="Projekt 12.png" alt="Zdjecie Projektu" style="width:500px;height:300px;"/></a>
+							</li>
+							<li>
+							<h2>EE.09-05-20.06-SG</h2>
+							<a href="projekt.html"><img src="Projekt 13.png" alt="Zdjecie Projektu" style="width:500px;height:300px;"/></a>
+							</li>
+                        </ul>
+                    </div>
+                </div>
+				<hr>
+				<div id="KontaktContainer" style="width:100%;height:900px;text-align:center;">
+                    <div id="KontaktContent" style="width:100%;height:fit-content;">
+                        <h1>Kontakt</h1>
+						<h2>E-mail: 19d.jakub.ptak@ezse.pl</h2>
+						
+						<h2>Telefon: xxx-xxx-xxx</h2>
+						
+						<h2>→ <a class="link" href="https://www.facebook.com/kuba.ptak.547"> Facebook </a> ←</h2>
+						
+						<h2>→ <a class="link" href="https://www.instagram.com/_kubaa.27/"> Instagram </a> ←</h2>
+						</div>
+						</div>
+						<div class="rectengle"><br/><br/>2020 &copy; Jakub Ptak - Portfolio</div>
+    </body>
+</html>

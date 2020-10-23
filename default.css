@@ -1,0 +1,33 @@
+body{margin:0px;padding:0px;background-color:#851d41;
+    color:whitesmoke;
+}
+
+#WebsiteContent{
+    background-color:#db3056;
+}
+#MenuBarContainer{
+    background-color:#eb1c49;
+}
+#Omnie{
+    background-color:#84a9ac;
+}
+hr{
+    background-color:#e7dfd5;
+}
+h1{font-size:5vw;}
+h2{font-size:3vw;}
+h3{font-size:2vw;}
+a:hover{
+    color:whitesmoke;
+}
+a{
+    color:whitesmoke;
+    text-decoration:none;
+}
+td{
+    margin-right:10px;
+    margin-left:10px;
+}
+
+
+
