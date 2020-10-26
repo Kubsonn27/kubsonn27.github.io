@@ -1,0 +1,5 @@
+Numery alarmowe:
+Pogotowie - 999
+Straż Pożarna - 998
+Policja - 997
+Ogólny - 112
