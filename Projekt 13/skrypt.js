@@ -7,6 +7,8 @@ function oblicz() {
 	if(a.checked == true) {
 		e = 25;
 	}
-	if(b.checked == 30;) {
+	if(b.checked == true) {
 		e = 30;
-}
+	}
+	if(c.checked == true) {
+	
