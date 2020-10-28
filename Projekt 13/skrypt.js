@@ -11,4 +11,10 @@ function oblicz() {
 		e = 30;
 	}
 	if(c.checked == true) {
+		e = 40;
+	}	
+	if(d.checked == true) {
+		e = 50;
+	}
+	document.getElementById('wynik').innerHTML - "Cena strzyżenia: '' + e;
 	
