@@ -16,5 +16,5 @@ function oblicz() {
 	if(d.checked == true) {
 		e = 50;
 	}
-	document.getElementById('wynik').innerHTML - "Cena strzyżenia: '' + e;
-	
+	document.getElementById('wynik').innerHTML - "Cena strzyżenia: " + e;
+}
