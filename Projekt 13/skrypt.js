@@ -1,9 +1,7 @@
-function strzyzenie(){
-	var krotkie = document.getElementById("krotkie").value;
-	var srednie = document.getElementById("srednie").value;
-	var poldlugie = document.getElementById("poldlugie").value;
-	var dlugie = document.getElementById("dlugie").value;
-
-		document.getElementById("cena").innerHtml = "jd" + krotkie;
-
+function oblicz() {
+	var a = document.getElementById("krotkie");
+	var b = document.getElementById("srednie");
+	var c = document.getElementById("poldlugie");
+	var d = document.getElementById("dlugie");
+	var e = 0;
 }
