@@ -4,4 +4,9 @@ function oblicz() {
 	var c = document.getElementById("poldlugie");
 	var d = document.getElementById("dlugie");
 	var e = 0;
+	if(a.checked == true) {
+		e = 25;
+	}
+	if(b.checked == 30;) {
+		e = 30;
 }
