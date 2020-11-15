@@ -27,3 +27,4 @@ function potegowanie(){
   let b = document.getElementById("pole2").value;
   let wynik = a ** b;
   document.getElementById("wynik").innerHTML = "Wynik potęgowania wynosi: " + wynik;
+}
