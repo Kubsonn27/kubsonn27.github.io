@@ -32,24 +32,26 @@
     <p>Stronę opracował: 000000000</p>
   </footer>
   <script>
-    function sprawdzanieHasla() {
-      var haslo = password.value;
-      if (haslo == "") {
-        napis.style.color = "red";
-        napis.innerHTML = "WPISZ HASŁO";
-      } else if (haslo.length >= 4 && haslo.length <= 6 && haslo.search("[0-9]") >= 0) {
-        napis.style.color = "blue";
-        napis.innerHTML = "ŚREDNIE";
-      } else if (haslo.length > 6 && haslo.search("[0-9]") >= 0) {
-        napis.style.color = "green";
-        napis.innerHTML = "DOBRE";
-      } else {
-        napis.style.color = "yellow";
-        napis.innerHTML = "SŁABE";
-      }
-    }
-
-  </script>
+function f(){
+var x = input1.value
+ if(x==""){
+ p1.style.color="red"
+ p1.innerHTML="WPISZ HASŁO"
+ }
+ else if(x.search("[0-9]")>=0 && x.length>6){
+ p1.style.color="green"
+ p1.innerHTML="DOBRE"        
+ }
+ else if(x.search("[0-9]")>=0 && x.length>=4 && x.length<=6){
+ p1.style.color="blue"
+ p1.innerHTML="ŚREDNIE"       
+ }
+ else {
+ p1.style.color="yellow"
+ p1.innerHTML="SŁABE"
+ }
+}
+</script>  
 </body>
 
 </html>
